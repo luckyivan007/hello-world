@@ -7,3 +7,7 @@ sudo apt-get install virtualbox-guest-dkms
 
 #Add user rights to shared folder
 sudo adduser %username% vboxsf
+
+#Run python scripts
+!/usr/bin/env python *.py
+chmod 0755 *.py
