@@ -11,3 +11,7 @@ sudo adduser %username% vboxsf
 #Run python scripts
 !/usr/bin/env python *.py
 chmod 0755 *.py
+
+#Forensic and analytics books
+Forensics and Incident Response by Gerard Johansen
+Network Intrusion Analysis by Steven Bolt, Joe Fichera
